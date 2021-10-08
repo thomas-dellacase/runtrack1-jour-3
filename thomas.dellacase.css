@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    background-color:lightblue;
+    background-image: url(img/night.jpeg);
+    font-family: Courier Prime;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+}
+
+#img{
+    height: 70%; 
+    width: 70%; 
+}
+
+#titre{
+    color: white;
+}
+#tableau{
+    color: white;
+}
+#link{
+    display:flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav:hover{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    font-size:250%;
+    transform: scale(2);
+}
+#bandeau{
+    color: white;
+    font-size:40px;
+}

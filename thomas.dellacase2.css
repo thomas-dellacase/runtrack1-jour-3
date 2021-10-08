@@ -1,0 +1,62 @@
+main{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    background-image: url(img/dnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{background-color:coral
+}
+
+#img{
+    grid-column-start: 3;
+    justify-self: center;
+}
+#img:hover{
+        color: white;
+        text-decoration: none;
+        transition: 1s;
+        font-size:250%;
+        transform: scale(1.1);
+    }
+
+#link{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    font-size: 30px;
+    white-space: pre-line;
+   justify-content: center;
+    vertical-align: middle;
+    text-align: left;
+    font-family:Oswald;
+    padding-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:hover{color: crimson;
+    text-shadow: 3px 3px 0px #aaa
+}
+
+#tableau{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    font-family:Oswald;
+    vertical-align: middle;
+    font-size: 25px;
+    color: red
+    
+}
+h1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-content: center; 
+    text-align: center;
+    font-family:Oswald;
+}
+body{border: 10px solid;
+     border-radius: 10px}
+
+img{border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template: auto auto auto;
+    background-color:#ff0066;
+    background-image: url("img/poly.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+img {
+    bottom: -10px;
+    justify-self: center;
+}
+h1 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center;
+    border-bottom: 2px solid white;
+    text-transform: full-width;
+    letter-spacing: 20px;
+    padding: 30px;
+    color:azure;
+}
+p {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    text-align: center;
+    z-index: 2;
+    letter-spacing: 3px;
+    padding: 15px;
+    font-size: 1.2em;
+}
+nav {
+    grid-column: 1/ 4;
+    grid-row: 2 / 3;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+a {
+    padding: 20px;
+    text-transform: full-width;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+a:hover {
+    text-shadow: 1px 1px 1px blanchedalmond;
+}
